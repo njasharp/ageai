@@ -34,7 +34,7 @@ def get_groq_client() -> Optional[Groq]:
 client = get_groq_client()
 
 # Sidebar - Model Configuration
-st.sidebar.image("p1a.png", width=280)
+st.sidebar.image("p1a.PNG", width=280)
 st.sidebar.text("highly advanced AI designed to ")
 st.sidebar.text("simulate human-like Cognitive Tasks")
 st.sidebar.title("Model Configuration")
